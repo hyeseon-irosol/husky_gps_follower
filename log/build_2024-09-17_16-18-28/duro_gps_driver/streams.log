@@ -1,0 +1,2 @@
+[0.095s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver -- -j20 -l20
+[0.184s] Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver' returned '0': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver -- -j20 -l20
