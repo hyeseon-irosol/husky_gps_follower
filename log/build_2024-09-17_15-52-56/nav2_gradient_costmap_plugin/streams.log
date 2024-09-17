@@ -1,0 +1,29 @@
+[0.246s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/nav2_gradient_costmap_plugin': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/nav2_gradient_costmap_plugin
+[0.399s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.399s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.400s]   contain a literal, direct call to the project() command.  Add a line of
+[0.400s]   code such as
+[0.400s] 
+[0.401s]     project(ProjectName)
+[0.401s] 
+[0.401s]   near the top of the file, but after cmake_minimum_required().
+[0.401s] 
+[0.402s]   CMake is pretending there is a "project(Project)" command on the first
+[0.402s]   line.
+[0.402s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.402s] [0m
+[0.675s] -- The C compiler identification is GNU 11.4.0
+[1.173s] -- The CXX compiler identification is GNU 11.4.0
+[1.239s] -- Detecting C compiler ABI info
+[1.805s] -- Detecting C compiler ABI info - done
+[1.891s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.893s] -- Detecting C compile features
+[1.898s] -- Detecting C compile features - done
+[1.934s] -- Detecting CXX compiler ABI info
+[2.656s] -- Detecting CXX compiler ABI info - done
+[2.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.697s] -- Detecting CXX compile features
+[2.703s] -- Detecting CXX compile features - done
+[2.707s] -- Configuring done
+[2.710s] -- Generating done
+[2.711s] -- Build files have been written to: /home/vupadhye/git_repo/husky_gps_follower/build/nav2_gradient_costmap_plugin

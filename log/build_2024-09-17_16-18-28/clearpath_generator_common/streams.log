@@ -1,0 +1,127 @@
+[0.013s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:/opt/ros/humble /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_common/clearpath_generator_common -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.190s] -- The CXX compiler identification is GNU 11.4.0
+[0.202s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.328s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.469s] -- Detecting CXX compile features - done
+[0.473s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.738s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.040s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.563s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.565s] -- Added test 'lint_cmake' to check CMake code style
+[3.566s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.570s] -- Added test 'xmllint' to check XML markup files
+[3.572s] -- Configuring done
+[3.577s] -- Generating done
+[3.578s] -- Build files have been written to: /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common
+[3.588s] Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:/opt/ros/humble /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_common/clearpath_generator_common -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common
+[3.589s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:/opt/ros/humble /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common -- -j20 -l20
+[3.674s] Built target ament_cmake_python_copy_clearpath_generator_common
+[4.086s] running egg_info
+[4.087s] creating clearpath_generator_common.egg-info
+[4.087s] writing clearpath_generator_common.egg-info/PKG-INFO
+[4.088s] writing dependency_links to clearpath_generator_common.egg-info/dependency_links.txt
+[4.088s] writing top-level names to clearpath_generator_common.egg-info/top_level.txt
+[4.088s] writing manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[4.093s] reading manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[4.094s] writing manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[4.135s] Built target ament_cmake_python_build_clearpath_generator_common_egg
+[4.152s] Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:/opt/ros/humble /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common -- -j20 -l20
+[4.190s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:/opt/ros/humble /usr/bin/cmake --install /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common
+[4.201s] -- Install configuration: ""
+[4.202s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/lib/clearpath_generator_common/generate_description
+[4.202s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/lib/clearpath_generator_common/generate_discovery_server
+[4.202s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/lib/clearpath_generator_common/generate_bash
+[4.202s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/environment/pythonpath.sh
+[4.202s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/environment/pythonpath.dsv
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.9-py3.10.egg-info
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.9-py3.10.egg-info/PKG-INFO
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.9-py3.10.egg-info/top_level.txt
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.9-py3.10.egg-info/SOURCES.txt
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.9-py3.10.egg-info/dependency_links.txt
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/writer.py
+[4.203s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/__init__.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/generator.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/common.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/writer.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/__init__.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generator.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generate_bash
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/__init__.py
+[4.204s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/writer.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/__init__.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/generator.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/platform.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/writer.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/__init__.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generate_discovery_server
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generator.py
+[4.205s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/writer.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/mounts.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/attachments.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/__init__.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generator.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/sensors.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/platform.py
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generate_description
+[4.206s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/links.py
+[4.293s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common'...
+[4.293s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/__init__.py'...
+[4.293s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash'...
+[4.293s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/__init__.py'...
+[4.293s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generator.py'...
+[4.293s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/writer.py'...
+[4.293s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/common.py'...
+[4.294s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/__init__.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/attachments.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generator.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/links.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/mounts.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/platform.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/sensors.py'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/writer.py'...
+[4.294s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server'...
+[4.294s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generator.py'...
+[4.294s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/__init__.py'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/generator.py'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/writer.py'...
+[4.295s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/__init__.py'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/writer.py'...
+[4.295s] Listing '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/__init__.py'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/generator.py'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/platform.py'...
+[4.295s] Compiling '/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/writer.py'...
+[4.301s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/ament_index/resource_index/package_run_dependencies/clearpath_generator_common
+[4.301s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/ament_index/resource_index/parent_prefix_path/clearpath_generator_common
+[4.301s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/environment/ament_prefix_path.sh
+[4.301s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/environment/ament_prefix_path.dsv
+[4.302s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/environment/path.sh
+[4.302s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/environment/path.dsv
+[4.302s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.bash
+[4.302s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.sh
+[4.302s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.zsh
+[4.302s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.dsv
+[4.303s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/package.dsv
+[4.303s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/ament_index/resource_index/packages/clearpath_generator_common
+[4.303s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/cmake/clearpath_generator_commonConfig.cmake
+[4.303s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/cmake/clearpath_generator_commonConfig-version.cmake
+[4.303s] -- Installing: /home/vupadhye/git_repo/husky_gps_follower/install/clearpath_generator_common/share/clearpath_generator_common/package.xml
+[4.307s] Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_mounts_description:/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_control:/opt/ros/humble /usr/bin/cmake --install /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_generator_common
