@@ -1,0 +1,31 @@
+[0.219s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_msgs': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_msgs/clearpath_msgs -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_msgs
+[0.417s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.417s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.418s]   contain a literal, direct call to the project() command.  Add a line of
+[0.418s]   code such as
+[0.418s] 
+[0.419s]     project(ProjectName)
+[0.419s] 
+[0.419s]   near the top of the file, but after cmake_minimum_required().
+[0.420s] 
+[0.420s]   CMake is pretending there is a "project(Project)" command on the first
+[0.420s]   line.
+[0.421s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.421s] [0m
+[0.629s] -- The C compiler identification is GNU 11.4.0
+[1.147s] -- The CXX compiler identification is GNU 11.4.0
+[1.207s] -- Detecting C compiler ABI info
+[1.725s] -- Detecting C compiler ABI info - done
+[1.792s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.796s] -- Detecting C compile features
+[1.797s] -- Detecting C compile features - done
+[1.824s] -- Detecting CXX compiler ABI info
+[2.420s] -- Detecting CXX compiler ABI info - done
+[2.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.591s] -- Detecting CXX compile features
+[2.623s] -- Detecting CXX compile features - done
+[2.624s] -- Configuring done
+[2.631s] -- Generating done
+[2.661s] -- Build files have been written to: /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_msgs
+[2.760s] Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_msgs' returned '0': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_msgs/clearpath_msgs -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_msgs
+[2.763s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_msgs': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_msgs -- -j20 -l20

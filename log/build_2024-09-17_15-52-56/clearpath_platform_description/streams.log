@@ -1,0 +1,31 @@
+[0.188s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_common/clearpath_platform_description -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_platform_description
+[0.408s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.409s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.410s]   contain a literal, direct call to the project() command.  Add a line of
+[0.410s]   code such as
+[0.411s] 
+[0.412s]     project(ProjectName)
+[0.415s] 
+[0.416s]   near the top of the file, but after cmake_minimum_required().
+[0.417s] 
+[0.418s]   CMake is pretending there is a "project(Project)" command on the first
+[0.419s]   line.
+[0.419s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.420s] [0m
+[0.712s] -- The C compiler identification is GNU 11.4.0
+[1.165s] -- The CXX compiler identification is GNU 11.4.0
+[1.223s] -- Detecting C compiler ABI info
+[1.786s] -- Detecting C compiler ABI info - done
+[1.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.859s] -- Detecting C compile features
+[1.862s] -- Detecting C compile features - done
+[1.888s] -- Detecting CXX compiler ABI info
+[2.458s] -- Detecting CXX compiler ABI info - done
+[2.600s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.622s] -- Detecting CXX compile features
+[2.646s] -- Detecting CXX compile features - done
+[2.650s] -- Configuring done
+[2.680s] -- Generating done
+[2.682s] -- Build files have been written to: /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description
+[2.821s] Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description' returned '0': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_common/clearpath_platform_description -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_platform_description
+[2.823s] Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description -- -j20 -l20

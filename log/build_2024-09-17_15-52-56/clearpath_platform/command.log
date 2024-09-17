@@ -1,0 +1,3 @@
+Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_common/clearpath_platform -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_platform
+Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform' returned '0': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_common/clearpath_platform -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_platform
+Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform -- -j20 -l20

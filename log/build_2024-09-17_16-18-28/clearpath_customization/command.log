@@ -1,0 +1,4 @@
+Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization -- -j20 -l20
+Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization -- -j20 -l20
+Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization
+Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_customization
