@@ -1,6 +1,6 @@
 # Husky GPS Follower 
 
-This workspace has src folder and dependencies for navigating the Husky robot using GPS in simulation.
+This workspace has a src folder and dependencies for navigating the Husky robot using GPS in simulation.
 
 ## Installation
 ```bash
@@ -8,7 +8,7 @@ $ sudo apt install ros-humble-clearpath-desktop
 $ mkdir ~/clearpath/
 $ cd ~/clearpath/
 ```
-Download robot.yaml into clearpath folder from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
+Download robot.yaml into 'clearpath' folder from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
 
 ```bash
 $ cd ~/clearpath_ws/
