@@ -2,14 +2,20 @@
 
 This workspace has a src folder and dependencies for navigating the Husky robot using GPS in simulation.
 
-## Installation
+## [Installation #1: clearpath](https://docs.clearpathrobotics.com/docs/ros/installation/offboard_pc)
 ```bash
 $ sudo apt install ros-humble-clearpath-desktop
 $ mkdir ~/clearpath/
 $ cd ~/clearpath/
 ```
 Download robot.yaml into 'clearpath' folder from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
+```bash
+$ source /opt/ros/humble/setup.bash
+$ ros2 run clearpath_generator_common generate_bash -s ~/clearpath
+$ source ~/clearpath/setup.bash
+```
 
+## [Installation #2: clearpath_ws](https://docs.clearpathrobotics.com/docs/ros/tutorials/simulator/install)
 ```bash
 $ cd ~/clearpath_ws/
 $ git clone https://github.com/hyeseon-irosol/husky_gps_follower.git
