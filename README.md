@@ -112,11 +112,10 @@ Node(
 src/navigation2_tutorials/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo/gps_waypoint_follower.py
 
 # User can define the waypoints
-
 def start_navigation(self):
-# List of GPS coordinates (latitude, longitude) for multiple goals
-waypoints = [
-    (-22.986628459702754, -43.20239925274351),  # Example goal 1
-    (-22.98650994296294,  -43.20241170571052)   # Example goal 2
-]
+        # List of GPS coordinates (latitude, longitude) for multiple goals
+        waypoints = [
+            (-22.986628459702754, -43.20239925274351),  # Example goal 1
+            (-22.98650994296294,  -43.20241170571052)   # Example goal 2
+        ]
 ```
