@@ -1,2 +1,0 @@
-Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description -- -j20 -l20
-Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description' returned '0': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_description -- -j20 -l20

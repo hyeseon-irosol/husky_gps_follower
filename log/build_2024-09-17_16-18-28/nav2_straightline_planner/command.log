@@ -1,2 +1,0 @@
-Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/nav2_straightline_planner': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/nav2_straightline_planner -- -j20 -l20
-Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/nav2_straightline_planner' returned '0': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/nav2_straightline_planner -- -j20 -l20

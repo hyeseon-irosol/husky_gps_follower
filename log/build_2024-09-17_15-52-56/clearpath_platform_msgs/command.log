@@ -1,1 +1,0 @@
-Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/clearpath_platform_msgs': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/clearpath_platform_msgs

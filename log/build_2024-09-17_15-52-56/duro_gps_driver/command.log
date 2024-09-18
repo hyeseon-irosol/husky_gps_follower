@@ -1,3 +1,0 @@
-Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/duro_gps_driver -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/duro_gps_driver
-Invoked command in '/home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver' returned '0': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/duro_gps_driver -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/duro_gps_driver
-Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver': /usr/bin/cmake --build /home/vupadhye/git_repo/husky_gps_follower/build/duro_gps_driver -- -j20 -l20

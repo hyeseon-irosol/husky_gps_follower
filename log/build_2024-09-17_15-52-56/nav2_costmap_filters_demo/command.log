@@ -1,1 +1,0 @@
-Invoking command in '/home/vupadhye/git_repo/husky_gps_follower/build/nav2_costmap_filters_demo': /usr/bin/cmake /home/vupadhye/git_repo/husky_gps_follower/src/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/vupadhye/git_repo/husky_gps_follower/install/nav2_costmap_filters_demo
