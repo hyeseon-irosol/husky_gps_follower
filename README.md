@@ -22,12 +22,13 @@ $ cd /opt/ros/humble/share/clearpath_nav2_demos/launch
 $ sudo nano nav2.launch.py
 ```
 Copy these lines to the GroupAction
-Node(
+
+"Node(
         package='nav2_gps_waypoint_follower_demo',
         executable='gps_waypoint_follower',  # Replace with your actual executable name
         name='sensor_data_subscriber',
         output='screen',
-        )
+        )"
 
 ## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky)
 
