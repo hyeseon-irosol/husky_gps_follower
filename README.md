@@ -2,6 +2,26 @@
 
 This workspace has a src folder and dependencies for navigating the Husky robot using GPS in simulation.
 
+## [Package and setup for GPS](https://docs.clearpathrobotics.com/docs/ros/config/yaml/sensors/gps)
+```bash
+# Install build dependencies.
+sudo apt-get install build-essential pkg-config cmake doxygen check
+# Clone driver to home directory
+cd ~
+git clone https://github.com/swift-nav/libsbp.git
+# Checkout latest supported branch
+cd libsbp
+git checkout e149901e63ddcdb0d818adcd8f8e4dbd0e2738d6
+# Update submodules
+cd c
+git submodule update --init --recursive
+# Build and install
+mkdir build; cd build
+cmake ../
+make
+sudo make install
+```
+
 ## [Installation #1: clearpath](https://docs.clearpathrobotics.com/docs/ros/installation/offboard_pc)
 ```bash
 $ sudo apt install ros-humble-clearpath-desktop
