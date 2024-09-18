@@ -41,6 +41,8 @@ source ~/clearpath/setup.bash
 cd ~/clearpath_ws/
 git clone https://github.com/hyeseon-irosol/husky_gps_follower.git
 colcon build
+# Add the following line to your ~/.bashrc file to automatically source the generated setup.bash file in new terminals:
+source ~/clearpath_ws/install/setup.bash
 ```
 
 ## Navigation node setting
