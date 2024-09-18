@@ -18,6 +18,8 @@ $ colcon build
 
 ## Navigation node setting
 ```bash
+$ sudo apt-get update
+$ sudo apt-get install ros-humble-clearpath-nav2-demos
 $ cd /opt/ros/humble/share/clearpath_nav2_demos/launch
 $ sudo nano nav2.launch.py
 ```
@@ -30,44 +32,24 @@ Copy these lines to the GroupAction
         output='screen',
         )"
 
-## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky)
+## Running SLAM and Navigation using Simulator
 
-1. Keyboard Teleoperation:
+1. Launch the simulation:
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_control teleop_keyboard.launch
+    $ ros2 launch clearpath_gz simulation.launch.py
     ```
 
-2. Map-Less Navigation:
+2. Launch RViz:
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation map_less_navigation.launch
+    $ ros2 launch clearpath_viz view_navigation.launch.py namespace:=a200_0284
     ```
 
-3. Simultaneous Localization And Mapping (SLAM):
+3. Launch Localization:
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation gmapping.launch
-    $ roslaunch husky_control teleop_keyboard.launch
-    ```
-    To save generated map to current working directory, run:
-    ```bash
-    $ rosrun map_server map_saver -f <filename>
+    $ ros2 launch clearpath_nav2_demos localization.launch.py setup_path:=$HOME/clearpath/
     ```
 
-4. Adaptive Monte Carlo Localization (AMCL):
+4. Launch Nav2 with GPS follower node:
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation amcl.launch
-    $ roslaunch husky_control teleop_keyboard.launch
-    ```
-
-5. Map-Based Navigation:
-    ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation map_based_navigation.launch
+    $ ros2 launch clearpath_nav2_demos nav2.launch.py setup_path:=$HOME/clearpath/
     ```
