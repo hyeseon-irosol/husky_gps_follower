@@ -116,8 +116,7 @@ src/navigation2_tutorials/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_foll
 def start_navigation(self):
 # List of GPS coordinates (latitude, longitude) for multiple goals
 waypoints = [
-      # Example goal 1
-    (-22.986628459702754, -43.20239925274351),  # Example goal 2
-    (-22.98650994296294,  -43.20241170571052)   # Example goal 3
+    (-22.986628459702754, -43.20239925274351),  # Example goal 1
+    (-22.98650994296294,  -43.20241170571052)   # Example goal 2
 ]
 ```
