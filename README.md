@@ -82,18 +82,20 @@ Node(
     ```bash
     ros2 launch clearpath_gz simulation.launch.py
     ```
+    Click the active button on the right bottom side.
+   ![alt text](https://github.com/hyeseon-irosol/husky_gps_follower/blob/main/gazebo_active.jpg?raw=true)
 
-2. Launch RViz:
+3. Launch RViz:
     ```bash
     ros2 launch clearpath_viz view_navigation.launch.py namespace:=a200_0284
     ```
 
-3. Launch Localization:
+4. Launch Localization:
     ```bash
     ros2 launch clearpath_nav2_demos localization.launch.py setup_path:=$HOME/clearpath/
     ```
 
-4. Launch Nav2 with GPS follower node:
+5. Launch Nav2 with GPS follower node:
     ```bash
     ros2 launch clearpath_nav2_demos nav2.launch.py setup_path:=$HOME/clearpath/
     ```
