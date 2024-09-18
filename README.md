@@ -57,17 +57,18 @@ cd /opt/ros/humble/share/clearpath_nav2_demos/launch
 sudo nano nav2.launch.py
 ```
 Editing the nav2.launch file
-Add "Node" in the line for actions
+
+1. Add "Node" in the line for actions
 ```bash
 from launch_ros.actions import PushRosNamespace, SetRemap, Node
 ```
 
-Copy this line to packages list
+2. Copy this line to packages list
 ```bash
 pkg_gps_package = get_package_share_directory('nav2_gps_waypoint_follower_demo')
 ```
 
-Copy these lines to the GroupAction
+3. Copy these lines to the GroupAction
 ```bash
 Node(
         package='nav2_gps_waypoint_follower_demo',
