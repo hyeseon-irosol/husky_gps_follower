@@ -8,7 +8,7 @@ $ sudo apt install ros-humble-clearpath-desktop
 $ mkdir ~/clearpath/
 $ cd ~/clearpath/
 ```
-Download robot.yaml in clearpath folder you created from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
+Download robot.yaml into clearpath folder from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
 
 ```bash
 $ cd ~/clearpath_ws/
@@ -16,15 +16,18 @@ $ git clone https://github.com/hyeseon-irosol/husky_gps_follower.git
 $ colcon build
 ```
 
-## Network setting
-
-* Please connect with the same wifi network Husky is using.
-
-* If you want to run the simulation Husky in Gazebo, the ROS_MASTER_URI should be another IP address, not a Husky IP address.
-
-  In the Dockerfile, the address might change from your IP address. Please check it using "ifconfig"
-
-  : RUN echo "export ROS_MASTER_URI=http://YOUR_IP_ADDRESS:11311" >> /home/${USERNAME}/.bashrc
+## Navigation node setting
+```bash
+$ cd /opt/ros/humble/share/clearpath_nav2_demos/launch
+$ sudo nano nav2.launch.py
+```
+Copy these lines to the GroupAction
+Node(
+        package='nav2_gps_waypoint_follower_demo',
+        executable='gps_waypoint_follower',  # Replace with your actual executable name
+        name='sensor_data_subscriber',
+        output='screen',
+        )
 
 ## How to use the packages from [Tinker-Twins](https://github.com/Tinker-Twins/Husky)
 
