@@ -44,18 +44,19 @@ colcon build
 ```
 
 ## Navigation node setting
+# Requirement for node
 ```bash
 pip install pyproj
 sudo apt-get install ros-humble-tf-transformations
 ```
-
+# Package for node
 ```bash
 sudo apt-get update
 sudo apt-get install ros-humble-clearpath-nav2-demos
 cd /opt/ros/humble/share/clearpath_nav2_demos/launch
 sudo nano nav2.launch.py
 ```
-
+# Editing the nav2.launch file
 Add "Node" in the line for actions
 ```bash
 from launch_ros.actions import PushRosNamespace, SetRemap, Node
