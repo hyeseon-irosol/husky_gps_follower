@@ -30,14 +30,14 @@ $ cd /opt/ros/humble/share/clearpath_nav2_demos/launch
 $ sudo nano nav2.launch.py
 ```
 Copy these lines to the GroupAction
-
-"Node(
+```bash
+Node(
         package='nav2_gps_waypoint_follower_demo',
         executable='gps_waypoint_follower',  # Replace with your actual executable name
         name='sensor_data_subscriber',
         output='screen',
-        )"
-
+        )
+```
 ## Running SLAM and Navigation using Simulator
 
 1. Launch the simulation:
