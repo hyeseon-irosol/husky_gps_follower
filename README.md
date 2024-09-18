@@ -106,17 +106,18 @@ Node(
    https://github.com/user-attachments/assets/1f88347b-2bb5-4b97-8539-2f0ba4653815
 
 ## Setting GPS waypoints
-    ```bash
-    # Node Directory
-    src/navigation2_tutorials/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo/gps_waypoint_follower.py
 
-    # User can define the waypoints
+```bash
+# Node Directory
+src/navigation2_tutorials/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo/gps_waypoint_follower.py
 
-        def start_navigation(self):
-        # List of GPS coordinates (latitude, longitude) for multiple goals
-        waypoints = [
-              # Example goal 1
-            (-22.986628459702754, -43.20239925274351),  # Example goal 2
-            (-22.98650994296294,  -43.20241170571052)   # Example goal 3
-        ]
-    ```
+# User can define the waypoints
+
+def start_navigation(self):
+# List of GPS coordinates (latitude, longitude) for multiple goals
+waypoints = [
+      # Example goal 1
+    (-22.986628459702754, -43.20239925274351),  # Example goal 2
+    (-22.98650994296294,  -43.20241170571052)   # Example goal 3
+]
+```
