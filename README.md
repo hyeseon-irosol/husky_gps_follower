@@ -82,7 +82,7 @@ Node(
     ```bash
     ros2 launch clearpath_gz simulation.launch.py
     ```
-    Click the active button on the right bottom side.
+    Click the active button on the left-bottom side.
    ![alt text](https://github.com/hyeseon-irosol/husky_gps_follower/blob/main/gazebo_image.png?raw=true)
 
 3. Launch RViz:
