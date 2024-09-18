@@ -7,8 +7,8 @@ This workspace has src folder and dependencies for navigating the Husky robot us
 $ sudo apt install ros-humble-clearpath-desktop
 $ mkdir ~/clearpath/
 $ cd ~/clearpath/
-$ Download robot.yaml in clearpath folder you created from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
 ```
+Download robot.yaml in clearpath folder you created from this [repo](https://github.com/hyeseon-irosol/husky_config/tree/main/clearpath)
 
 ```bash
 $ cd ~/clearpath_ws/
