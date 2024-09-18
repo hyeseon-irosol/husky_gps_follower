@@ -38,7 +38,7 @@ Node(
         output='screen',
         )
 ```
-## Running SLAM and Navigation using Simulator
+## [Running SLAM and Navigation using Simulator](https://docs.clearpathrobotics.com/docs/ros/tutorials/navigation_demos/nav2)
 
 1. Launch the simulation:
     ```bash
