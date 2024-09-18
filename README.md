@@ -50,6 +50,12 @@ sudo apt-get install ros-humble-clearpath-nav2-demos
 cd /opt/ros/humble/share/clearpath_nav2_demos/launch
 sudo nano nav2.launch.py
 ```
+
+Copy this line to packages list
+```bash
+pkg_gps_package = get_package_share_directory('nav2_gps_waypoint_follower_demo')
+```
+
 Copy these lines to the GroupAction
 ```bash
 Node(
