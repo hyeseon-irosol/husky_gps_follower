@@ -32,6 +32,7 @@ Download robot.yaml into 'clearpath' folder from this [repo](https://github.com/
 ```bash
 source /opt/ros/humble/setup.bash
 ros2 run clearpath_generator_common generate_bash -s ~/clearpath
+# Add the following line to your ~/.bashrc file to automatically source the generated setup.bash file in new terminals:
 source ~/clearpath/setup.bash
 ```
 
