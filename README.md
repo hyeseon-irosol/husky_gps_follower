@@ -103,5 +103,4 @@ Node(
     ```bash
     ros2 launch clearpath_nav2_demos nav2.launch.py setup_path:=$HOME/clearpath/
     ```
-   ![alt text](https://github.com/hyeseon-irosol/husky_gps_follower/blob/main/gps_nav.mp4?raw=true)
-
+   https://github.com/user-attachments/assets/1f88347b-2bb5-4b97-8539-2f0ba4653815
