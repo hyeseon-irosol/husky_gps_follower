@@ -95,7 +95,7 @@ Node(
     ros2 launch clearpath_nav2_demos localization.launch.py setup_path:=$HOME/clearpath/
     ```
     Use the 2D Pose Estimate tool in RViz to set the initial pose of the robot.
-   ![alt text](https://github.com/hyeseon-irosol/husky_gps_follower/blob/main/pose_est.jpg?raw=true)
+   ![alt text](https://github.com/hyeseon-irosol/husky_gps_follower/blob/main/pose_est.png?raw=true)
 
 6. Launch Nav2 with GPS follower node:
     ```bash
