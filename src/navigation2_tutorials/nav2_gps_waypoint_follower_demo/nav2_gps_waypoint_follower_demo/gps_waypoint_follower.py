@@ -17,7 +17,7 @@ import tf_transformations
 
 # Define projections
 wgs84 = CRS('epsg:4326')  # WGS84 (GPS coordinates)
-utm = CRS('epsg:32723')   # UTM Zone 33N (adjust based on your location)
+utm = CRS('epsg:32723')   # UTM Zone 33N (adjust based on your location) / MTU utm = CRS('epsg:32616') (UTM Zone 16T)
 
 # Create a transformer object
 transformer = Transformer.from_crs(wgs84, utm, always_xy=True)
@@ -29,6 +29,7 @@ class SensorDataSubscriber(Node):
     dist_x = 0.0
     dist_y = 0.0
     current_yaw = 0.0
+
     def __init__(self):
         super().__init__('sensor_data_subscriber')
         self.tf_buffer = Buffer()
@@ -38,6 +39,13 @@ class SensorDataSubscriber(Node):
         #self.dist_x = 0.0
         #self.dist_y = 0.0
         #self.current_yaw = 0.0
+
+        self.amcl_subscription = self.create_subscription(
+            PoseWithCovarianceStamped,
+            '/a200_0284/amcl_pose',
+            self.amcl_callback,
+            10
+        )
 
         # Subscriber for GPS data
         self.gps_subscription = self.create_subscription(
@@ -56,13 +64,13 @@ class SensorDataSubscriber(Node):
         )
 
         # Subscriber for IMU data
-        self.imu_subscription = self.create_subscription(
+        """self.imu_subscription = self.create_subscription(
             Imu,
             '/a200_0284/sensors/imu_0/data',
             self.imu_callback,
             10
-        )
-        
+        )"""
+
         self.initpose_subscription = self.create_subscription(
             PoseWithCovarianceStamped,
             '/a200_0284/initialpose',
@@ -133,7 +141,7 @@ class SensorDataSubscriber(Node):
         self.robot_pose = msg.pose.pose  # Store robot pose
         #self.get_logger().info(f'Received Odometry data: Position - X: {msg.pose.pose.position.x}, Y: {msg.pose.pose.position.y}, Z: {msg.pose.pose.position.z}')
 
-    def imu_callback(self, msg):
+    """def imu_callback(self, msg):
         quaternion = (
             msg.orientation.x,
             msg.orientation.y,
@@ -151,9 +159,30 @@ class SensorDataSubscriber(Node):
 
             #self.get_logger().info(f'Received IMU data: Roll: {roll}, Pitch: {pitch}, Yaw: {SensorDataSubscriber.current_yaw}')
         except TransformException as e:
-            self.get_logger().error(f'Failed to transform: {e}')
-        
+            self.get_logger().error(f'Failed to transform: {e}')"""
 
+    def amcl_callback(self, msg):
+        #self.amcl_pose = msg.pose.pose
+        
+        self.get_logger().info(f'ANYTHING')
+        amcl_quaternion = (
+            msg.pose.pose.orientation.x,
+            msg.pose.pose.orientation.y,
+            msg.pose.pose.orientation.z,
+            msg.pose.pose.orientation.w
+        )
+
+        try:
+            
+            euler = tf_transformations.euler_from_quaternion(amcl_quaternion)
+            roll = euler[0]
+            pitch = euler[1]
+            yaw= euler[2]  # Yaw angle in radians
+            SensorDataSubscriber.current_yaw =yaw
+
+            self.get_logger().info(f'Received AMCL data: Roll: {roll}, Pitch: {pitch}, Yaw: {SensorDataSubscriber.current_yaw}')
+        except TransformException as e:
+            self.get_logger().error(f'Failed to transform: {e}')
 
     """def utm_goal(self):
         # Example UTM coordinates for goals
@@ -204,7 +233,7 @@ class SensorDataSubscriber(Node):
         self.get_logger().info(f'Current_yaw: {SensorDataSubscriber.current_yaw}')
         SensorDataSubscriber.dist_x = (goal_utm[0]-SensorDataSubscriber.utm_x)*math.cos(angle) + (goal_utm[1]-SensorDataSubscriber.utm_y)*math.sin(angle)
         SensorDataSubscriber.dist_y = -(goal_utm[0]-SensorDataSubscriber.utm_x)*math.sin(angle) + (goal_utm[1]-SensorDataSubscriber.utm_y)*math.cos(angle)
-        
+
     def gps_callback(self, msg):
         # Convert GPS coordinates to UTM
         SensorDataSubscriber.utm_x, SensorDataSubscriber.utm_y = self.gps_to_utm(msg.latitude, msg.longitude)
@@ -221,11 +250,11 @@ class SensorDataSubscriber(Node):
         goal_utm_x, goal_utm_y = self.gps_to_utm(goal_lat, goal_lon)
         self.get_logger().info(f'Goal GPS: lat={goal_lat}, lon={goal_lon}')
         self.get_logger().info(f'Converted Goal UTM coordinates: X: {goal_utm_x}, Y: {goal_utm_y}')
-    
+
         # Calculate the distance to the goal based on the current UTM position
         self.calculate_dist((goal_utm_x, goal_utm_y))
         self.get_logger().info(f'goal x= {SensorDataSubscriber.dist_x}, goal y={SensorDataSubscriber.dist_y}')
-    
+
         # Prepare PoseStamped for the current goal
         goal_pose = PoseStamped()
         goal_pose.header.frame_id = 'map'
@@ -244,8 +273,9 @@ class SensorDataSubscriber(Node):
     def start_navigation(self):
         # List of GPS coordinates (latitude, longitude) for multiple goals
         waypoints = [
+              # Example goal 1
             (-22.986628459702754, -43.20239925274351),  # Example goal 2
-            (-22.98650994296294,  -43.20241170571052),  # Example goal 2
+            (-22.98650994296294,  -43.20241170571052)   # Example goal 3
         ]
 
         # Create a list to store goal poses
