@@ -17,7 +17,7 @@ import tf_transformations
 
 # Define projections
 wgs84 = CRS('epsg:4326')  # WGS84 (GPS coordinates)
-utm = CRS('epsg:32723')   # UTM Zone 33N (adjust based on your location) / MTU utm = CRS('epsg:32616') (UTM Zone 16T)
+utm = CRS('epsg:32616')   # UTM Zone 33N (utm = CRS('epsg:32723')) / MTU utm = CRS('epsg:32616') (UTM Zone 16T)
 
 # Create a transformer object
 transformer = Transformer.from_crs(wgs84, utm, always_xy=True)
@@ -273,9 +273,8 @@ class SensorDataSubscriber(Node):
     def start_navigation(self):
         # List of GPS coordinates (latitude, longitude) for multiple goals
         waypoints = [
-              # Example goal 1
-            (-22.986628459702754, -43.20239925274351),  # Example goal 2
-            (-22.98650994296294,  -43.20241170571052)   # Example goal 3
+            (-22.986628459702754, -43.20239925274351),  # Example goal 1
+            (-22.98650994296294,  -43.20241170571052)   # Example goal 2
         ]
 
         # Create a list to store goal poses
